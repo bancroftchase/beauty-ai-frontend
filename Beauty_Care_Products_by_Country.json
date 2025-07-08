@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Beauty Care Products by Country",
+    "description": "",
+    "image": "https://example.com/images/beautycareproductsby.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "China",
+    "description": "",
+    "image": "https://example.com/images/china.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "1. Pechoin Herbal Moisturizing Cream",
+    "description": "",
+    "image": "https://example.com/images/1pechoinherbalmoistu.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "2. Herborist T'ai Chi Masks",
+    "description": "",
+    "image": "https://example.com/images/2herboristtaichimask.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "3. Inoherb Hydrating Toner",
+    "description": "",
+    "image": "https://example.com/images/3inoherbhydratington.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "Greece",
+    "description": "",
+    "image": "https://example.com/images/greece.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "1. Korres Greek Yoghurt Foaming Cleanser",
+    "description": "",
+    "image": "https://example.com/images/1korresgreekyoghurtf.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "2. Apivita Bee Radiant Age Defense Serum",
+    "description": "",
+    "image": "https://example.com/images/2apivitabeeradiantag.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "3. Korres Wild Rose Sleeping Facial",
+    "description": "",
+    "image": "https://example.com/images/3korreswildrosesleep.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "4. Apivita Wine Elixir Eye Cream",
+    "description": "",
+    "image": "https://example.com/images/4apivitawineelixirey.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "India",
+    "description": "",
+    "image": "https://example.com/images/india.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "1. Forest Essentials Soundarya Radiance Cream",
+    "description": "",
+    "image": "https://example.com/images/1forestessentialssou.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "2. Himalaya Purifying Neem Face Wash",
+    "description": "",
+    "image": "https://example.com/images/2himalayapurifyingne.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "3. Kama Ayurveda Kumkumadi Miraculous Beauty Fluid",
+    "description": "",
+    "image": "https://example.com/images/3kamaayurvedakumkuma.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "4. Biotique Bio Morning Nectar Lotion",
+    "description": "",
+    "image": "https://example.com/images/4biotiquebiomorningn.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "Morocco",
+    "description": "",
+    "image": "https://example.com/images/morocco.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "1. 100% Pure Argan Oil",
+    "description": "",
+    "image": "https://example.com/images/1100purearganoil.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "2. Ghassoul Clay Mask",
+    "description": "",
+    "image": "https://example.com/images/2ghassoulclaymask.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "3. Moroccan Black Soap",
+    "description": "",
+    "image": "https://example.com/images/3moroccanblacksoap.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "4. Elixir of Argan Hair Serum",
+    "description": "",
+    "image": "https://example.com/images/4elixirofarganhairse.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "Sweden",
+    "description": "",
+    "image": "https://example.com/images/sweden.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "1. Foreo Luna Facial Cleansing Brush",
+    "description": "",
+    "image": "https://example.com/images/1foreolunafacialclea.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "2. L:A Bruket No. 155 Face Cream",
+    "description": "",
+    "image": "https://example.com/images/2labruketno155facecr.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "3. Estelle & Thild Biocleanse Micellar Water",
+    "description": "",
+    "image": "https://example.com/images/3estellethildbioclea.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "4. Oriflame Optimals Even Out Night Cream",
+    "description": "",
+    "image": "https://example.com/images/4oriflameoptimalseve.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "Switzerland",
+    "description": "",
+    "image": "https://example.com/images/switzerland.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "1. La Prairie Skin Caviar Luxe Cream",
+    "description": "",
+    "image": "https://example.com/images/1laprairieskincaviar.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "2. Valmont Prime Renewing Pack",
+    "description": "",
+    "image": "https://example.com/images/2valmontprimerenewin.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "3. Mavala Nail Hardener",
+    "description": "",
+    "image": "https://example.com/images/3mavalanailhardener.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "4. Skincode Essentials 24h Cell Energizer Cream",
+    "description": "",
+    "image": "https://example.com/images/4skincodeessentials2.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "Thailand",
+    "description": "",
+    "image": "https://example.com/images/thailand.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "1. Snail White Whipp Soap",
+    "description": "",
+    "image": "https://example.com/images/1snailwhitewhippsoap.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "2. Namu Life Snail White Cream",
+    "description": "",
+    "image": "https://example.com/images/2namulifesnailwhitec.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "3. Mistine Acne Clear Toner",
+    "description": "",
+    "image": "https://example.com/images/3mistineacneclearton.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "4. Scentio Milk Plus Whitening Q10 Lotion",
+    "description": "",
+    "image": "https://example.com/images/4scentiomilkpluswhit.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "Turkey",
+    "description": "",
+    "image": "https://example.com/images/turkey.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "1. Dalan d'Olive Hand & Body Cream",
+    "description": "",
+    "image": "https://example.com/images/1dalandolivehandbody.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "2. Gulsha Rose Water",
+    "description": "",
+    "image": "https://example.com/images/2gulsharosewater.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "3. Ey\u00fcp Sabri Tuncer Cologne",
+    "description": "",
+    "image": "https://example.com/images/3eypsabrituncercolog.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  },
+  {
+    "name": "4. Haci Sakir Olive Oil Soap",
+    "description": "",
+    "image": "https://example.com/images/4hacisakiroliveoilso.jpg",
+    "category": "Beauty_Care_Products_by_Country"
+  }
+]

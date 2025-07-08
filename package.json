@@ -1,21 +1,16 @@
 {
-  "name": "beauty-ai-working",
+  "name": "beauty-ai-frontend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Beauty AI Frontend - Luminous AI",
+  "main": "index.html",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "serve -s . -p $PORT",
+    "build": "echo 'No build needed - static files'"
   },
   "dependencies": {
-    "expo": "~53.0.17",
-    "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.5"
+    "serve": "^14.2.1"
   },
-  "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+  "engines": {
+    "node": "18.x"
+  }
 }

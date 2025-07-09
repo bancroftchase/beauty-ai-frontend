@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty AI - Your AI Beauty Consultant</title>
+    <meta name="description" content="Test Beauty AI features including Claude AI chat, product search, and beauty recommendations">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .app-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            color: #667eea;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        button {
+            width: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 15px;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        textarea, input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        textarea:focus, input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical;
+            font-family: inherit;
+        }
+
+        .response {
+            background: #f8f9fa;
+            border: 2px solid #e1e5e9;
+            border-radius: 15px;
+            padding: 20px;
+            min-height: 120px;
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .loading {
+            color: #667eea;
+            font-style: italic;
+            animation: pulse 1.5s ease-in-out infinite alternate;
+        }
+
+        .success {
+            border-color: #27ae60;
+            background: #f0f9f4;
+        }
+
+        .error {
+            border-color: #e74c3c;
+            background: #fdf2f2;
+        }
+
+        @keyframes pulse {
+            from { opacity: 0.6; }
+            to { opacity: 1; }
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .feature-btn {
+            padding: 12px;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-online { background: #27ae60; }
+        .status-offline { background: #e74c3c; }
+        .status-testing { background: #f39c12; animation: pulse 1s infinite; }
+
+        .footer {
+            text-align: center;
+            color: rgba(255,255,255,0.8);
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 10px; }
+            .header h1 { font-size: 2rem; }
+            .feature-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>✨ Beauty AI</h1>
+            <p>Your AI-Powered Beauty Consultant</p>
+            <p style="font-size: 0.9rem; margin-top: 10px;">
+                <span id="statusIndicator" class="status-indicator status-offline"></span>
+                <span id="statusText">Checking connection...</span>
+            </p>
+        </div>
+
+        <!-- Backend Connection Test -->
+        <div class="app-section">
+            <h2 class="section-title">🔗 Backend Connection</h2>
+            <button onclick="testBackend()" id="testBtn">Test Backend Connection</button>
+            <div class="response" id="backendResponse">Click the button above to test backend connection...</div>
+        </div>
+
+        <!-- Claude AI Chat -->
+        <div class="app-section">
+            <h2 class="section-title">🤖 Claude AI Chat</h2>
+            <textarea id="messageInput" placeholder="Ask Claude AI about beauty tips, skincare routines, makeup techniques, or product recommendations..."></textarea>
+            <button onclick="testClaude()" id="claudeBtn">Ask Claude AI</button>
+            <div class="response" id="claudeResponse">Enter a beauty question above and click 'Ask Claude AI'...</div>
+        </div>
+
+        <!-- Product Search -->
+        <div class="app-section">
+            <h2 class="section-title">🛍️ Product Search</h2>
+            <input type="text" id="searchInput" placeholder="Search beauty products (e.g., 'retinol serum', 'vitamin c')">
+            <button onclick="searchProducts()" id="searchBtn">Search Products</button>
+            <div class="response" id="searchResponse">Enter a product search term above...</div>
+        </div>
+
+        <!-- API Features -->
+        <div class="app-section">
+            <h2 class="section-title">🚀 Test All Features</h2>
+            <div class="feature-grid">
+                <button class="feature-btn" onclick="testCategories()">📂 Categories</button>
+                <button class="feature-btn" onclick="testTrends()">📱 Trends</button>
+                <button class="feature-btn" onclick="testFacialAnalysis()">📸 Facial Analysis</button>
+                <button class="feature-btn" onclick="loadTrendingProducts()">🔥 Trending Products</button>
+            </div>
+            <div class="response" id="featuresResponse">Click any feature button above to test...</div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Hosted on synergylogicsit.com • Powered by Claude AI</p>
+            <p>Backend: beauty-ai-backend.onrender.com</p>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE_URL = 'https://beauty-ai-backend.onrender.com';
+        
+        // Status management
+        function updateStatus(status, text) {
+            const indicator = document.getElementById('statusIndicator');
+            const statusText = document.getElementById('statusText');
+            
+            indicator.className = `status-indicator status-${status}`;
+            statusText.textContent = text;
+        }
+
+        // Backend connection test
+        async function testBackend() {
+            const btn = document.getElementById('testBtn');
+            const response = document.getElementById('backendResponse');
+            
+            btn.disabled = true;
+            btn.textContent = '🔄 Testing...';
+            response.textContent = 'Connecting to backend...';
+            response.className = 'response loading';
+            updateStatus('testing', 'Testing connection...');
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/health`);
+                const data = await res.json();
+                
+                response.textContent = `✅ Backend Connected Successfully!\n\nService: ${data.service}\nVersion: ${data.version}\nStatus: ${data.status}\nFeatures: ${data.features.length} available\nProducts: ${data.productsLoaded} loaded\n\nTimestamp: ${data.timestamp}`;
+                response.className = 'response success';
+                updateStatus('online', 'Backend online');
+            } catch (error) {
+                response.textContent = `❌ Connection Error:\n\n${error.message}\n\nPlease check:\n- Backend is running\n- CORS is configured\n- Network connection`;
+                response.className = 'response error';
+                updateStatus('offline', 'Backend offline');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🔗 Test Backend Connection';
+            }
+        }
+
+        // Claude AI chat
+        async function testClaude() {
+            const message = document.getElementById('messageInput').value.trim();
+            const btn = document.getElementById('claudeBtn');
+            const response = document.getElementById('claudeResponse');
+
+            if (!message) {
+                alert('Please enter a beauty question for Claude AI');
+                return;
+            }
+
+            btn.disabled = true;
+            btn.textContent = '🔄 Asking Claude...';
+            response.textContent = 'Claude AI is thinking about your beauty question...';
+            response.className = 'response loading';
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/chat/claude`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        message, 
+                        context: 'comprehensive beauty consultation' 
+                    })
+                });
+                const data = await res.json();
+                
+                if (data.success) {
+                    response.textContent = `🤖 Claude AI Beauty Consultant:\n\n${data.response}`;
+                    response.className = 'response success';
+                } else {
+                    response.textContent = `❌ Claude Error:\n\n${data.error || 'Unknown error occurred'}`;
+                    response.className = 'response error';
+                }
+            } catch (error) {
+                response.textContent = `❌ Network Error:\n\n${error.message}\n\nClaude AI may be temporarily unavailable.`;
+                response.className = 'response error';
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🤖 Ask Claude AI';
+            }
+        }
+
+        // Product search
+        async function searchProducts() {
+            const query = document.getElementById('searchInput').value.trim();
+            const btn = document.getElementById('searchBtn');
+            const response = document.getElementById('searchResponse');
+
+            if (!query) {
+                alert('Please enter a product search term');
+                return;
+            }
+
+            btn.disabled = true;
+            btn.textContent = '🔄 Searching...';
+            response.textContent = `Searching for "${query}"...`;
+            response.className = 'response loading';
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/products/search`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        query, 
+                        limit: 5 
+                    })
+                });
+                const data = await res.json();
+                
+                if (data.success && data.products.length > 0) {
+                    let resultText = `🛍️ Found ${data.products.length} products:\n\n`;
+                    data.products.forEach((product, index) => {
+                        resultText += `${index + 1}. ${product.name}\n`;
+                        resultText += `   Brand: ${product.brand}\n`;
+                        resultText += `   Price: ${product.price}\n`;
+                        resultText += `   Rating: ⭐ ${product.rating}\n`;
+                        resultText += `   ${product.description}\n\n`;
+                    });
+                    response.textContent = resultText;
+                    response.className = 'response success';
+                } else {
+                    response.textContent = `No products found for "${query}"\n\nTry searching for:\n- "retinol serum"\n- "vitamin c"\n- "moisturizer"\n- "makeup"`;
+                    response.className = 'response error';
+                }
+            } catch (error) {
+                response.textContent = `❌ Search Error:\n\n${error.message}`;
+                response.className = 'response error';
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🛍️ Search Products';
+            }
+        }
+
+        // Test categories
+        async function testCategories() {
+            const response = document.getElementById('featuresResponse');
+            response.textContent = 'Loading beauty categories...';
+            response.className = 'response loading';
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/products/categories`);
+                const data = await res.json();
+                
+                if (data.success) {
+                    let resultText = '📂 Beauty Categories:\n\n';
+                    Object.entries(data.categories).forEach(([key, category]) => {
+                        resultText += `${category.icon} ${category.name}\n`;
+                        resultText += `   Subcategories: ${category.subCategories.length}\n\n`;
+                    });
+                    response.textContent = resultText;
+                    response.className = 'response success';
+                } else {
+                    throw new Error(data.error || 'Failed to load categories');
+                }
+            } catch (error) {
+                response.textContent = `❌ Categories Error:\n\n${error.message}`;
+                response.className = 'response error';
+            }
+        }
+
+        // Test trends
+        async function testTrends() {
+            const response = document.getElementById('featuresResponse');
+            response.textContent = 'Loading beauty trends...';
+            response.className = 'response loading';
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/trends`);
+                const data = await res.json();
+                
+                if (data.success) {
+                    let resultText = '📱 Beauty Trends:\n\n';
+                    data.trends.forEach((trend, index) => {
+                        resultText += `${index + 1}. ${trend.icon} ${trend.title}\n`;
+                        resultText += `   Platform: ${trend.platform}\n`;
+                        resultText += `   ${trend.description}\n`;
+                        resultText += `   ${trend.hashtag} • ${trend.views}\n\n`;
+                    });
+                    response.textContent = resultText;
+                    response.className = 'response success';
+                } else {
+                    throw new Error(data.error || 'Failed to load trends');
+                }
+            } catch (error) {
+                response.textContent = `❌ Trends Error:\n\n${error.message}`;
+                response.className = 'response error';
+            }
+        }
+
+        // Test facial analysis
+        async function testFacialAnalysis() {
+            const response = document.getElementById('featuresResponse');
+            response.textContent = 'Testing facial analysis (simulation)...';
+            response.className = 'response loading';
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/facial-analysis`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        imageData: 'test_image_data_simulation' 
+                    })
+                });
+                const data = await res.json();
+                
+                if (data.success) {
+                    const analysis = data.analysis;
+                    let resultText = '📸 Facial Analysis Results:\n\n';
+                    resultText += `Skin Tone: ${analysis.skinTone}\n`;
+                    resultText += `Skin Type: ${analysis.skinType}\n\n`;
+                    resultText += 'Recommendations:\n';
+                    resultText += `Foundation: ${analysis.recommendations.foundation}\n\n`;
+                    resultText += 'Skincare Routine:\n';
+                    analysis.recommendations.routine.forEach((step, index) => {
+                        resultText += `${index + 1}. ${step}\n`;
+                    });
+                    response.textContent = resultText;
+                    response.className = 'response success';
+                } else {
+                    throw new Error(data.error || 'Facial analysis failed');
+                }
+            } catch (error) {
+                response.textContent = `❌ Facial Analysis Error:\n\n${error.message}`;
+                response.className = 'response error';
+            }
+        }
+
+        // Load trending products
+        async function loadTrendingProducts() {
+            const response = document.getElementById('featuresResponse');
+            response.textContent = 'Loading trending products...';
+            response.className = 'response loading';
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/products/trending`);
+                const data = await res.json();
+                
+                if (data.success) {
+                    let resultText = '🔥 Trending Products:\n\n';
+                    data.products.slice(0, 5).forEach((product, index) => {
+                        resultText += `${index + 1}. ${product.name}\n`;
+                        resultText += `   Brand: ${product.brand} | Price: ${product.price}\n`;
+                        resultText += `   ⭐ ${product.rating} (${product.reviews} reviews)\n\n`;
+                    });
+                    response.textContent = resultText;
+                    response.className = 'response success';
+                } else {
+                    throw new Error(data.error || 'Failed to load trending products');
+                }
+            } catch (error) {
+                response.textContent = `❌ Trending Products Error:\n\n${error.message}`;
+                response.className = 'response error';
+            }
+        }
+
+        // Auto-test backend on page load
+        window.addEventListener('load', function() {
+            updateStatus('testing', 'Initializing...');
+            setTimeout(testBackend, 1000);
+        });
+
+        // Handle enter key in inputs
+        document.getElementById('messageInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && e.ctrlKey) {
+                testClaude();
+            }
+        });
+
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchProducts();
+            }
+        });
+    </script>
+</body>
+</html>

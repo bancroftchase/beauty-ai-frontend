@@ -1,0 +1,2024 @@
+[
+  {
+    "name": "Global Beauty & Wellness Catalog by Category",
+    "description": "",
+    "image": "https://example.com/images/globalbeautywellness.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Australia",
+    "description": "",
+    "image": "https://example.com/images/australia.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Bodycare",
+    "description": "",
+    "image": "https://example.com/images/bodycare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Frank Body Coffee Scrub",
+    "description": "",
+    "image": "https://example.com/images/1frankbodycoffeescru.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Ego QV Gentle Wash",
+    "description": "",
+    "image": "https://example.com/images/2egoqvgentlewash.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Fragrance",
+    "description": "",
+    "image": "https://example.com/images/fragrance.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Jurlique Rosewater Balancing Mist",
+    "description": "",
+    "image": "https://example.com/images/1jurliquerosewaterba.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Bondi Sands Self Tanning Foam",
+    "description": "",
+    "image": "https://example.com/images/1bondisandsselftanni.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Lucas Papaw Ointment",
+    "description": "",
+    "image": "https://example.com/images/2lucaspapawointment.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. ModelCo Highlighting Shimmer",
+    "description": "",
+    "image": "https://example.com/images/3modelcohighlighting.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Aesop Parsley Seed Serum",
+    "description": "",
+    "image": "https://example.com/images/1aesopparsleyseedser.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Sukin Foaming Facial Cleanser",
+    "description": "",
+    "image": "https://example.com/images/2sukinfoamingfacialc.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Endota Spa Hydration Mask",
+    "description": "",
+    "image": "https://example.com/images/3endotaspahydrationm.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Wellness",
+    "description": "",
+    "image": "https://example.com/images/wellness.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Essano Rosehip Oil",
+    "description": "",
+    "image": "https://example.com/images/1essanorosehipoil.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Brazil",
+    "description": "",
+    "image": "https://example.com/images/brazil.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Haircare",
+    "description": "",
+    "image": "https://example.com/images/haircare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Bio Extratus Shampoo",
+    "description": "",
+    "image": "https://example.com/images/1bioextratusshampoo.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Lip Care",
+    "description": "",
+    "image": "https://example.com/images/lipcare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Quem Disse, Berenice? Lipstick",
+    "description": "",
+    "image": "https://example.com/images/1quemdissebereniceli.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Nail Care",
+    "description": "",
+    "image": "https://example.com/images/nailcare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Risqu\u00e9 Nail Polish",
+    "description": "",
+    "image": "https://example.com/images/1risqunailpolish.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Natura Ekos Castanha Body Lotion",
+    "description": "",
+    "image": "https://example.com/images/1naturaekoscastanhab.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Granado Pink Cuticle Cream",
+    "description": "",
+    "image": "https://example.com/images/2granadopinkcuticlec.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. O Botic\u00e1rio Lily Essence Perfume",
+    "description": "",
+    "image": "https://example.com/images/3oboticriolilyessenc.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. Avon Renew Vitamin C Serum",
+    "description": "",
+    "image": "https://example.com/images/4avonrenewvitamincse.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "5. Haskell Bamboo Hair Mask",
+    "description": "",
+    "image": "https://example.com/images/5haskellbamboohairma.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "6. L'Occitane au Br\u00e9sil Mandacaru Cream",
+    "description": "",
+    "image": "https://example.com/images/6loccitaneaubrsilman.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "7. Skala Expert Hair Cream",
+    "description": "",
+    "image": "https://example.com/images/7skalaexperthaircrea.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "China",
+    "description": "",
+    "image": "https://example.com/images/china.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Pechoin Herbal Moisturizing Cream",
+    "description": "",
+    "image": "https://example.com/images/1pechoinherbalmoistu.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply after toner for daily hydration.",
+    "description": "",
+    "image": "https://example.com/images/applyaftertonerforda.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Herborist T'ai Chi Masks",
+    "description": "",
+    "image": "https://example.com/images/2herboristtaichimask.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply black mask first, then white, leave each for 10 mins.",
+    "description": "",
+    "image": "https://example.com/images/applyblackmaskfirstt.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Inoherb Hydrating Toner",
+    "description": "",
+    "image": "https://example.com/images/3inoherbhydratington.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply with hands or cotton pad post-cleansing.",
+    "description": "",
+    "image": "https://example.com/images/applywithhandsorcott.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "France",
+    "description": "",
+    "image": "https://example.com/images/france.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Bioderma Sensibio H2O Micellar Water",
+    "description": "",
+    "image": "https://example.com/images/1biodermasensibioh2o.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. La Roche-Posay Thermal Spring Water",
+    "description": "",
+    "image": "https://example.com/images/2larocheposaythermal.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Caudalie Beauty Elixir",
+    "description": "",
+    "image": "https://example.com/images/3caudaliebeautyelixi.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. Embryolisse Lait-Cr\u00e8me Concentr\u00e9",
+    "description": "",
+    "image": "https://example.com/images/4embryolisselaitcrme.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "5. Vichy Mineral 89",
+    "description": "",
+    "image": "https://example.com/images/5vichymineral89.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. L'Or\u00e9al Revitalift Serum",
+    "description": "",
+    "image": "https://example.com/images/1loralrevitaliftseru.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Av\u00e8ne Hydrance Aqua Cream-in-Gel",
+    "description": "",
+    "image": "https://example.com/images/2avnehydranceaquacre.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Yves Rocher Pure Calmille Cream",
+    "description": "",
+    "image": "https://example.com/images/3yvesrocherpurecalmi.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Wellness",
+    "description": "",
+    "image": "https://example.com/images/wellness.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Nuxe Huile Prodigieuse Dry Oil",
+    "description": "",
+    "image": "https://example.com/images/1nuxehuileprodigieus.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Guerlain Abeille Royale Youth Watery Oil",
+    "description": "",
+    "image": "https://example.com/images/2guerlainabeilleroya.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Germany",
+    "description": "",
+    "image": "https://example.com/images/germany.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Haircare",
+    "description": "",
+    "image": "https://example.com/images/haircare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Lavera Basis Sensitiv Shampoo",
+    "description": "",
+    "image": "https://example.com/images/1laverabasissensitiv.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Weleda Skin Food",
+    "description": "",
+    "image": "https://example.com/images/1weledaskinfood.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Sebamed Clear Face Gel",
+    "description": "",
+    "image": "https://example.com/images/2sebamedclearfacegel.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Annayake Cleansing Milk",
+    "description": "",
+    "image": "https://example.com/images/3annayakecleansingmi.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Nivea Soft Cream",
+    "description": "",
+    "image": "https://example.com/images/1niveasoftcream.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Dr. Hauschka Rose Day Cream",
+    "description": "",
+    "image": "https://example.com/images/2drhauschkarosedaycr.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Alverde Natural Cosmetics Hand Cream",
+    "description": "",
+    "image": "https://example.com/images/3alverdenaturalcosme.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. Eubos Sensitive Skin Lotion",
+    "description": "",
+    "image": "https://example.com/images/4eubossensitiveskinl.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "5. Balea Q10 Anti-Wrinkle Cream",
+    "description": "",
+    "image": "https://example.com/images/5baleaq10antiwrinkle.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Wellness",
+    "description": "",
+    "image": "https://example.com/images/wellness.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Kneipp Herbal Bath Oil",
+    "description": "",
+    "image": "https://example.com/images/1kneippherbalbathoil.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Greece",
+    "description": "",
+    "image": "https://example.com/images/greece.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Korres Wild Rose Sleeping Facial",
+    "description": "",
+    "image": "https://example.com/images/1korreswildrosesleep.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply nightly, leave on overnight.",
+    "description": "",
+    "image": "https://example.com/images/applynightlyleaveono.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Korres Greek Yoghurt Foaming Cleanser",
+    "description": "",
+    "image": "https://example.com/images/1korresgreekyoghurtf.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Massage onto damp skin, rinse off.",
+    "description": "",
+    "image": "https://example.com/images/massageontodampskinr.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Apivita Bee Radiant Age Defense Serum",
+    "description": "",
+    "image": "https://example.com/images/2apivitabeeradiantag.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use daily before moisturizer on clean skin.",
+    "description": "",
+    "image": "https://example.com/images/usedailybeforemoistu.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Apivita Wine Elixir Eye Cream",
+    "description": "",
+    "image": "https://example.com/images/3apivitawineelixirey.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Tap gently around eyes morning/evening.",
+    "description": "",
+    "image": "https://example.com/images/tapgentlyaroundeyesm.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "India",
+    "description": "",
+    "image": "https://example.com/images/india.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Bodycare",
+    "description": "",
+    "image": "https://example.com/images/bodycare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Himalaya Purifying Neem Face Wash",
+    "description": "",
+    "image": "https://example.com/images/1himalayapurifyingne.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use twice daily on wet face, massage and rinse off.",
+    "description": "",
+    "image": "https://example.com/images/usetwicedailyonwetfa.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Kama Ayurveda Kumkumadi Miraculous Beauty Fluid",
+    "description": "",
+    "image": "https://example.com/images/1kamaayurvedakumkuma.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply 23 drops at night on cleansed skin.",
+    "description": "",
+    "image": "https://example.com/images/apply23dropsatnighto.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Forest Essentials Soundarya Radiance Cream",
+    "description": "",
+    "image": "https://example.com/images/1forestessentialssou.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply after cleansing and toning, twice daily.",
+    "description": "",
+    "image": "https://example.com/images/applyaftercleansinga.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Biotique Bio Morning Nectar Lotion",
+    "description": "",
+    "image": "https://example.com/images/2biotiquebiomorningn.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use after bathing, apply over body.",
+    "description": "",
+    "image": "https://example.com/images/useafterbathingapply.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Italy",
+    "description": "",
+    "image": "https://example.com/images/italy.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Bodycare",
+    "description": "",
+    "image": "https://example.com/images/bodycare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Collistar Talasso-Scrub",
+    "description": "",
+    "image": "https://example.com/images/1collistartalassoscr.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Lip Care",
+    "description": "",
+    "image": "https://example.com/images/lipcare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Deborah Milano Lipstick",
+    "description": "",
+    "image": "https://example.com/images/1deborahmilanolipsti.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Nail Care",
+    "description": "",
+    "image": "https://example.com/images/nailcare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Kiko Milano Smart Nail Lacquer",
+    "description": "",
+    "image": "https://example.com/images/1kikomilanosmartnail.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. LErbolario Iris Bath Foam",
+    "description": "",
+    "image": "https://example.com/images/1lerbolarioirisbathf.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Diego Dalla Palma Brow Pencil",
+    "description": "",
+    "image": "https://example.com/images/2diegodallapalmabrow.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Pupa Vamp Mascara",
+    "description": "",
+    "image": "https://example.com/images/3pupavampmascara.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. Labo Transdermic Skincare",
+    "description": "",
+    "image": "https://example.com/images/4labotransdermicskin.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "5. Guam Seaweed Mud",
+    "description": "",
+    "image": "https://example.com/images/5guamseaweedmud.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Bottega Verde Face Serum with Hyaluronic Acid",
+    "description": "",
+    "image": "https://example.com/images/1bottegaverdefaceser.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Natura House Foot Cream",
+    "description": "",
+    "image": "https://example.com/images/2naturahousefootcrea.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Japan",
+    "description": "",
+    "image": "https://example.com/images/japan.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Shiseido Ultimune Power Infusing Concentrate",
+    "description": "",
+    "image": "https://example.com/images/1shiseidoultimunepow.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Majolica Majorca Lash Expander Mascara",
+    "description": "",
+    "image": "https://example.com/images/2majolicamajorcalash.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Senka Perfect Whip Foam",
+    "description": "",
+    "image": "https://example.com/images/3senkaperfectwhipfoa.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. SK-II Facial Treatment Essence",
+    "description": "",
+    "image": "https://example.com/images/1skiifacialtreatment.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Hada Labo Gokujyun Lotion",
+    "description": "",
+    "image": "https://example.com/images/2hadalabogokujyunlot.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Canmake Cream Cheek",
+    "description": "",
+    "image": "https://example.com/images/3canmakecreamcheek.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. Saborino Morning Face Mask",
+    "description": "",
+    "image": "https://example.com/images/4saborinomorningface.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "5. Biore UV Aqua Rich Watery Essence",
+    "description": "",
+    "image": "https://example.com/images/5bioreuvaquarichwate.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Wellness",
+    "description": "",
+    "image": "https://example.com/images/wellness.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. DHC Deep Cleansing Oil",
+    "description": "",
+    "image": "https://example.com/images/1dhcdeepcleansingoil.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Kose Softymo Cleansing Oil",
+    "description": "",
+    "image": "https://example.com/images/2kosesoftymocleansin.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Morocco",
+    "description": "",
+    "image": "https://example.com/images/morocco.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Bodycare",
+    "description": "",
+    "image": "https://example.com/images/bodycare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Moroccan Black Soap",
+    "description": "",
+    "image": "https://example.com/images/1moroccanblacksoap.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply in steam bath, scrub with a kessa glove, rinse.",
+    "description": "",
+    "image": "https://example.com/images/applyinsteambathscru.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Ghassoul Clay Mask",
+    "description": "",
+    "image": "https://example.com/images/1ghassoulclaymask.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Mix with water, apply on skin for 10-15 min, rinse thoroughly.",
+    "description": "",
+    "image": "https://example.com/images/mixwithwaterapplyons.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Elixir of Argan Hair Serum",
+    "description": "",
+    "image": "https://example.com/images/2elixirofarganhairse.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply to damp hair for shine and frizz control.",
+    "description": "",
+    "image": "https://example.com/images/applytodamphairforsh.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Wellness",
+    "description": "",
+    "image": "https://example.com/images/wellness.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. 100% Pure Argan Oil",
+    "description": "",
+    "image": "https://example.com/images/1100purearganoil.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply to face, body, or hair as needed.",
+    "description": "",
+    "image": "https://example.com/images/applytofacebodyorhai.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "South Africa",
+    "description": "",
+    "image": "https://example.com/images/southafrica.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Bodycare",
+    "description": "",
+    "image": "https://example.com/images/bodycare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Clicks Exfoliating Facial Scrub",
+    "description": "",
+    "image": "https://example.com/images/1clicksexfoliatingfa.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Footcare",
+    "description": "",
+    "image": "https://example.com/images/footcare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Oh So Heavenly Foot Scrub",
+    "description": "",
+    "image": "https://example.com/images/1ohsoheavenlyfootscr.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Himalaya Herbals Neem Face Pack (local favorite)",
+    "description": "",
+    "image": "https://example.com/images/1himalayaherbalsneem.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Sorbet Hydrating Face Mask",
+    "description": "",
+    "image": "https://example.com/images/1sorbethydratingface.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. African Extracts Rooibos Toner",
+    "description": "",
+    "image": "https://example.com/images/2africanextractsrooi.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Annique Rooibos Day Cream",
+    "description": "",
+    "image": "https://example.com/images/3anniquerooibosdaycr.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. Dis-Chem Vitamin C Serum",
+    "description": "",
+    "image": "https://example.com/images/4dischemvitamincseru.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "5. Lip Ice Lip Balm",
+    "description": "",
+    "image": "https://example.com/images/5lipicelipbalm.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Wellness",
+    "description": "",
+    "image": "https://example.com/images/wellness.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Bio-Oil Skincare Oil",
+    "description": "",
+    "image": "https://example.com/images/1biooilskincareoil.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Justine Tissue Oil",
+    "description": "",
+    "image": "https://example.com/images/2justinetissueoil.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "South Korea",
+    "description": "",
+    "image": "https://example.com/images/southkorea.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Etude House Tint",
+    "description": "",
+    "image": "https://example.com/images/1etudehousetint.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Holika Holika Aloe Soothing Gel",
+    "description": "",
+    "image": "https://example.com/images/2holikaholikaaloesoo.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Cosrx Acne Pimple Master Patch",
+    "description": "",
+    "image": "https://example.com/images/3cosrxacnepimplemast.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Laneige Water Sleeping Mask",
+    "description": "",
+    "image": "https://example.com/images/1laneigewatersleepin.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Innisfree Green Tea Seed Serum",
+    "description": "",
+    "image": "https://example.com/images/2innisfreegreentease.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Sulwhasoo First Care Activating Serum",
+    "description": "",
+    "image": "https://example.com/images/3sulwhasoofirstcarea.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. Dr. Jart+ Cicapair Cream",
+    "description": "",
+    "image": "https://example.com/images/4drjartcicapaircream.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "5. Missha Time Revolution Essence",
+    "description": "",
+    "image": "https://example.com/images/5misshatimerevolutio.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "6. The Face Shop Rice Water Bright Cleanser",
+    "description": "",
+    "image": "https://example.com/images/6thefaceshopricewate.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "7. Banila Co Clean It Zero Balm",
+    "description": "",
+    "image": "https://example.com/images/7banilacocleanitzero.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Spain",
+    "description": "",
+    "image": "https://example.com/images/spain.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Fragrance",
+    "description": "",
+    "image": "https://example.com/images/fragrance.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Yves Rocher Spanish Rose Perfume",
+    "description": "",
+    "image": "https://example.com/images/1yvesrocherspanishro.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Lip Care",
+    "description": "",
+    "image": "https://example.com/images/lipcare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Deliplus Makeup Remover Wipes",
+    "description": "",
+    "image": "https://example.com/images/1deliplusmakeupremov.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. ISDIN Fotoprotector Fusion Water",
+    "description": "",
+    "image": "https://example.com/images/1isdinfotoprotectorf.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Babaria Aloe Vera Gel",
+    "description": "",
+    "image": "https://example.com/images/2babariaaloeveragel.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Garnier SkinActive Micellar Water",
+    "description": "",
+    "image": "https://example.com/images/3garnierskinactivemi.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. MartiDerm Ampoules",
+    "description": "",
+    "image": "https://example.com/images/4martidermampoules.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Lullage AcneXpert Serum",
+    "description": "",
+    "image": "https://example.com/images/1lullageacnexpertser.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Nenuco Body Lotion",
+    "description": "",
+    "image": "https://example.com/images/2nenucobodylotion.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Bella Aurora Anti-Stain Cream",
+    "description": "",
+    "image": "https://example.com/images/3bellaauroraantistai.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. La Chinata Lip Balm",
+    "description": "",
+    "image": "https://example.com/images/4lachinatalipbalm.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Sweden",
+    "description": "",
+    "image": "https://example.com/images/sweden.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Foreo Luna Facial Cleansing Brush",
+    "description": "",
+    "image": "https://example.com/images/1foreolunafacialclea.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use with cleanser for 1 minute, rinse device and face.",
+    "description": "",
+    "image": "https://example.com/images/usewithcleanserfor1m.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Estelle & Thild Biocleanse Micellar Water",
+    "description": "",
+    "image": "https://example.com/images/2estellethildbioclea.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply with cotton pad, no rinse needed.",
+    "description": "",
+    "image": "https://example.com/images/applywithcottonpadno.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. L:A Bruket No. 155 Face Cream",
+    "description": "",
+    "image": "https://example.com/images/1labruketno155facecr.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply daily to clean skin morning and evening.",
+    "description": "",
+    "image": "https://example.com/images/applydailytocleanski.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Oriflame Optimals Even Out Night Cream",
+    "description": "",
+    "image": "https://example.com/images/2oriflameoptimalseve.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply nightly on clean face.",
+    "description": "",
+    "image": "https://example.com/images/applynightlyoncleanf.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Switzerland",
+    "description": "",
+    "image": "https://example.com/images/switzerland.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Nail Care",
+    "description": "",
+    "image": "https://example.com/images/nailcare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Mavala Nail Hardener",
+    "description": "",
+    "image": "https://example.com/images/1mavalanailhardener.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply once or twice a week on clean nails.",
+    "description": "",
+    "image": "https://example.com/images/applyonceortwiceawee.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Valmont Prime Renewing Pack",
+    "description": "",
+    "image": "https://example.com/images/1valmontprimerenewin.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply as mask for 20 minutes or leave overnight.",
+    "description": "",
+    "image": "https://example.com/images/applyasmaskfor20minu.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. La Prairie Skin Caviar Luxe Cream",
+    "description": "",
+    "image": "https://example.com/images/1laprairieskincaviar.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply morning/evening after serum.",
+    "description": "",
+    "image": "https://example.com/images/applymorningeveninga.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Skincode Essentials 24h Cell Energizer Cream",
+    "description": "",
+    "image": "https://example.com/images/2skincodeessentials2.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use morning and night on face.",
+    "description": "",
+    "image": "https://example.com/images/usemorningandnighton.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Thailand",
+    "description": "",
+    "image": "https://example.com/images/thailand.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Nail Care",
+    "description": "",
+    "image": "https://example.com/images/nailcare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Snail White Whipp Soap",
+    "description": "",
+    "image": "https://example.com/images/1snailwhitewhippsoap.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Lather and apply to face, rinse well.",
+    "description": "",
+    "image": "https://example.com/images/latherandapplytoface.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Namu Life Snail White Cream",
+    "description": "",
+    "image": "https://example.com/images/1namulifesnailwhitec.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply twice daily to face and neck.",
+    "description": "",
+    "image": "https://example.com/images/applytwicedailytofac.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Mistine Acne Clear Toner",
+    "description": "",
+    "image": "https://example.com/images/2mistineacneclearton.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply with cotton pad after cleansing.",
+    "description": "",
+    "image": "https://example.com/images/applywithcottonpadaf.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Scentio Milk Plus Whitening Q10 Lotion",
+    "description": "",
+    "image": "https://example.com/images/3scentiomilkpluswhit.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply daily after showering.",
+    "description": "",
+    "image": "https://example.com/images/applydailyaftershowe.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Turkey",
+    "description": "",
+    "image": "https://example.com/images/turkey.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Gulsha Rose Water",
+    "description": "",
+    "image": "https://example.com/images/1gulsharosewater.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as toner or facial mist throughout the day.",
+    "description": "",
+    "image": "https://example.com/images/useastonerorfacialmi.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Ey\u00fcp Sabri Tuncer Cologne",
+    "description": "",
+    "image": "https://example.com/images/2eypsabrituncercolog.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Splash onto hands or body for freshness.",
+    "description": "",
+    "image": "https://example.com/images/splashontohandsorbod.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Dalan d'Olive Hand & Body Cream",
+    "description": "",
+    "image": "https://example.com/images/1dalandolivehandbody.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Apply generously on dry skin areas.",
+    "description": "",
+    "image": "https://example.com/images/applygenerouslyondry.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Wellness",
+    "description": "",
+    "image": "https://example.com/images/wellness.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Haci Sakir Olive Oil Soap",
+    "description": "",
+    "image": "https://example.com/images/1hacisakiroliveoilso.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use daily for face and body cleansing.",
+    "description": "",
+    "image": "https://example.com/images/usedailyforfaceandbo.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Nail Care",
+    "description": "",
+    "image": "https://example.com/images/nailcare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Essie Nail Polish",
+    "description": "",
+    "image": "https://example.com/images/1essienailpolish.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Other",
+    "description": "",
+    "image": "https://example.com/images/other.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. Neutrogena Hydro Boost Gel",
+    "description": "",
+    "image": "https://example.com/images/1neutrogenahydroboos.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Fenty Beauty Pro Filtr Foundation",
+    "description": "",
+    "image": "https://example.com/images/2fentybeautyprofiltr.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Maybelline Great Lash Mascara",
+    "description": "",
+    "image": "https://example.com/images/3maybellinegreatlash.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. e.l.f. Poreless Putty Primer",
+    "description": "",
+    "image": "https://example.com/images/4elfporelessputtypri.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "5. Anastasia Beverly Hills Brow Wiz",
+    "description": "",
+    "image": "https://example.com/images/5anastasiabeverlyhil.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "Skincare",
+    "description": "",
+    "image": "https://example.com/images/skincare.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "1. CeraVe Moisturizing Cream",
+    "description": "",
+    "image": "https://example.com/images/1ceravemoisturizingc.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "2. Tatcha The Water Cream",
+    "description": "",
+    "image": "https://example.com/images/2tatchathewatercream.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "3. Drunk Elephant Vitamin C Serum",
+    "description": "",
+    "image": "https://example.com/images/3drunkelephantvitami.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "4. Olay Regenerist Micro-Sculpting Cream",
+    "description": "",
+    "image": "https://example.com/images/4olayregeneristmicro.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  },
+  {
+    "name": "-> Use as directed for beauty/wellness care",
+    "description": "",
+    "image": "https://example.com/images/useasdirectedforbeau.jpg",
+    "category": "Beauty_Wellness_Catalog_By_Category"
+  }
+]

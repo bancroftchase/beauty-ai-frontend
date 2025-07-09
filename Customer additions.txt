@@ -1,0 +1,4 @@
+Customer additions: Instead of Book tab let's change to My Account. Inside they still have booking options, list of stylist dropdown or no preference, text message or email reminder [We need to make this option automated. They can upload pictures to send stylist or send questions. they can Cancel, Request Reschedule , Choose text message reminder or email preference. Customer can choose stylist from list or click no preference. Lastly I want to add An Admin Back End for each Stylist where they can see and handle weekly bookings, earnings, monthly earnings, weekly earnings. They can reschedule, cancel appointments. We can buildout additional features as we go.
+
+Here is the tab order we now have: Home - Book - Services - Pricing - Store - 
+Let's add a second Row: New Client - Specials - Send Message [With dropdown of Stylist to send to] - Specials

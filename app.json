@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "name": "beauty-simple",
+    "slug": "beauty-simple",
+    "version": "1.0.0",
+    "platforms": ["ios", "android"]
+  }
+}

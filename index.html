@@ -2,20 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Luminous AI - Your Radiant Beauty Companion</title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="theme-color" content="#B8860B">
-    <link rel="manifest" href="manifest.json">
-    <script>
-        // Check for splash redirect IMMEDIATELY - before any content loads
-        const splashShown = sessionStorage.getItem('splashShown');
-        if (!splashShown) {
-            // Redirect to splash screen immediately
-            window.location.href = '/splash.html';
-        }
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty AI - Your AI Beauty Consultant</title>
+    <meta name="description" content="Test Beauty AI features including Claude AI chat, product search, and beauty recommendations">
     <style>
         * {
             margin: 0;
@@ -23,394 +12,178 @@
             box-sizing: border-box;
         }
 
-        :root {
-            --primary-charcoal: #2C2C2C;
-            --luminous-gold: #B8860B;
-            --pearl-white: #F8F8F8;
-            --radiant-rose: #E8D5D5;
-            --premium-gradient: linear-gradient(135deg, #B8860B, #DAA520);
-        }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: var(--primary-charcoal);
-            color: #333;
-            overflow-x: hidden;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
+            color: #333;
         }
 
         .container {
-            max-width: 414px;
+            max-width: 500px;
             margin: 0 auto;
-            background: var(--primary-charcoal);
-            min-height: 100vh;
-            position: relative;
+            padding: 20px;
         }
 
         .header {
-            background: var(--primary-charcoal);
-            padding: 20px;
             text-align: center;
-            border-bottom: 1px solid #3A3A3A;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
         }
 
-        .logo {
-            font-size: 28px;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 8px;
-            background: var(--premium-gradient);
+        .header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
+            margin-bottom: 10px;
         }
 
-        .tagline {
-            font-size: 14px;
-            color: var(--luminous-gold);
-            font-weight: 500;
-            opacity: 0.9;
-        }
-
-        .main-content {
-            background: var(--pearl-white);
-            min-height: calc(100vh - 120px);
-            padding: 20px;
-        }
-
-        .welcome-section {
-            background: white;
-            border-radius: 16px;
-            padding: 24px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-
-        .welcome-title {
-            font-size: 20px;
-            font-weight: 700;
-            color: var(--primary-charcoal);
-            margin-bottom: 8px;
-        }
-
-        .welcome-subtitle {
-            font-size: 14px;
+        .header p {
             color: #666;
-            margin-bottom: 20px;
+            font-size: 1.1rem;
         }
 
-        .ai-search-container {
-            margin-bottom: 20px;
-        }
-
-        .ai-search-bar {
-            background: white;
-            border-radius: 25px;
-            padding: 16px 20px;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            border: 2px solid var(--luminous-gold);
-        }
-
-        .ai-icon {
-            font-size: 20px;
-            color: var(--luminous-gold);
-        }
-
-        .ai-input {
-            flex: 1;
-            border: none;
-            outline: none;
-            font-size: 14px;
-            color: var(--primary-charcoal);
-            background: transparent;
-        }
-
-        .ai-input::placeholder {
-            color: #999;
-            font-style: italic;
-        }
-
-        .ai-send-btn {
-            background: var(--premium-gradient);
-            border: none;
+        .app-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
             border-radius: 20px;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .ai-send-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 12px rgba(184, 134, 11, 0.3);
-        }
-
-        .quick-actions {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            gap: 8px;
-            margin-bottom: 24px;
-        }
-
-        .action-card {
-            background: white;
-            border-radius: 12px;
-            padding: 8px 6px;
-            text-align: center;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            transition: all 0.2s;
-            cursor: pointer;
-            position: relative;
-            min-height: 60px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .action-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-        }
-
-        .premium-feature {
-            background: linear-gradient(135deg, #FFF9E6, #FFFFFF);
-            border: 1px solid var(--luminous-gold);
-        }
-
-        .premium-star {
-            position: absolute;
-            top: 3px;
-            right: 3px;
-            font-size: 8px;
-            color: var(--luminous-gold);
-        }
-
-        .action-icon {
-            width: 28px;
-            height: 28px;
-            border-radius: 14px;
-            background: var(--premium-gradient);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 4px;
-            color: white;
-            font-size: 12px;
-        }
-
-        .premium-feature .action-icon {
-            background: var(--premium-gradient);
-            box-shadow: 0 2px 6px rgba(184, 134, 11, 0.3);
-        }
-
-        .action-title {
-            font-size: 10px;
-            font-weight: 600;
-            color: var(--primary-charcoal);
-            margin-bottom: 2px;
-            line-height: 1.1;
-        }
-
-        .action-subtitle {
-            font-size: 8px;
-            color: #666;
-            line-height: 1.1;
-        }
-
-        .featured-section {
-            background: white;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 30px;
             margin-bottom: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
         }
 
-        .featured-header {
-            background: var(--premium-gradient);
-            color: white;
-            padding: 16px;
-            text-align: center;
+        .section-title {
+            font-size: 1.3rem;
+            color: #667eea;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
-        .featured-title {
-            font-size: 16px;
-            font-weight: 700;
-            margin-bottom: 4px;
-        }
-
-        .featured-subtitle {
-            font-size: 12px;
-            opacity: 0.9;
-        }
-
-        .featured-content {
-            padding: 20px;
-            text-align: center;
-        }
-
-        .chat-btn {
-            background: var(--premium-gradient);
+        button {
+            width: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             border: none;
-            padding: 16px 32px;
-            border-radius: 25px;
-            font-weight: 600;
+            padding: 15px 20px;
+            border-radius: 15px;
             font-size: 16px;
-            cursor: pointer;
-            width: 100%;
-            margin-bottom: 12px;
-            box-shadow: 0 4px 12px rgba(184, 134, 11, 0.3);
-            transition: all 0.2s;
-        }
-
-        .chat-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(184, 134, 11, 0.4);
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            margin-top: 20px;
-        }
-
-        .feature-card {
-            background: var(--pearl-white);
-            border-radius: 12px;
-            padding: 16px;
-            text-align: center;
-        }
-
-        .feature-icon {
-            font-size: 24px;
-            margin-bottom: 8px;
-        }
-
-        .feature-title {
-            font-size: 12px;
             font-weight: 600;
-            color: var(--primary-charcoal);
-            margin-bottom: 4px;
-        }
-
-        .feature-desc {
-            font-size: 10px;
-            color: #666;
-        }
-
-        .bottom-nav {
-            background: white;
-            height: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            border-top: 1px solid #E0E0E0;
-            padding-bottom: 20px;
-            position: fixed;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100%;
-            max-width: 414px;
-        }
-
-        .nav-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 4px;
-            color: #666;
-            text-decoration: none;
-            transition: all 0.2s;
+            margin-bottom: 15px;
             cursor: pointer;
+            transition: all 0.3s ease;
         }
 
-        .nav-item.active {
-            color: var(--luminous-gold);
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
         }
 
-        .nav-icon {
-            width: 24px;
-            height: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
         }
 
-        .nav-label {
-            font-size: 10px;
-            font-weight: 500;
+        textarea, input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            transition: all 0.3s ease;
         }
 
-        .basket-count {
-            background: var(--luminous-gold);
-            color: white;
-            border-radius: 10px;
-            padding: 2px 6px;
-            font-size: 8px;
-            font-weight: 700;
-            position: absolute;
-            top: -5px;
-            right: -5px;
-            min-width: 16px;
-            text-align: center;
+        textarea:focus, input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }
 
-        @media (max-width: 380px) {
-            .quick-actions {
-                grid-template-columns: 1fr 1fr;
-                gap: 12px;
-            }
-
-            .action-card {
-                min-height: 80px;
-                padding: 12px 8px;
-            }
-
-            .action-title {
-                font-size: 11px;
-            }
-
-            .action-subtitle {
-                font-size: 9px;
-            }
+        textarea {
+            height: 100px;
+            resize: vertical;
+            font-family: inherit;
         }
 
-        /* Loading Animation */
+        .response {
+            background: #f8f9fa;
+            border: 2px solid #e1e5e9;
+            border-radius: 15px;
+            padding: 20px;
+            min-height: 120px;
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
         .loading {
-            display: inline-flex;
-            gap: 2px;
+            color: #667eea;
+            font-style: italic;
+            animation: pulse 1.5s ease-in-out infinite alternate;
         }
 
-        .dot {
-            width: 4px;
-            height: 4px;
-            background: var(--luminous-gold);
-            border-radius: 50%;
-            animation: pulse 1.5s infinite;
+        .success {
+            border-color: #27ae60;
+            background: #f0f9f4;
         }
 
-        .dot:nth-child(2) {
-            animation-delay: 0.3s;
-        }
-
-        .dot:nth-child(3) {
-            animation-delay: 0.6s;
+        .error {
+            border-color: #e74c3c;
+            background: #fdf2f2;
         }
 
         @keyframes pulse {
-            0%, 100% { opacity: 0.3; }
-            50% { opacity: 1; }
+            from { opacity: 0.6; }
+            to { opacity: 1; }
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .feature-btn {
+            padding: 12px;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-online { background: #27ae60; }
+        .status-offline { background: #e74c3c; }
+        .status-testing { background: #f39c12; animation: pulse 1s infinite; }
+
+        .footer {
+            text-align: center;
+            color: rgba(255,255,255,0.8);
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 10px; }
+            .header h1 { font-size: 2rem; }
+            .feature-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -418,379 +191,329 @@
     <div class="container">
         <!-- Header -->
         <div class="header">
-            <div class="logo">✨ Luminous AI</div>
-            <div class="tagline">Your Radiant Beauty Companion</div>
+            <h1>✨ Beauty AI</h1>
+            <p>Your AI-Powered Beauty Consultant</p>
+            <p style="font-size: 0.9rem; margin-top: 10px;">
+                <span id="statusIndicator" class="status-indicator status-offline"></span>
+                <span id="statusText">Checking connection...</span>
+            </p>
         </div>
 
-        <!-- Main Content -->
-        <div class="main-content">
-            <!-- Welcome Section -->
-            <div class="welcome-section">
-                <div class="welcome-title">Welcome to Your Beauty Journey</div>
-                <div class="welcome-subtitle">Get personalized AI-powered beauty recommendations from global experts</div>
-
-                <!-- AI Search Bar -->
-                <div class="ai-search-container">
-                    <div class="ai-search-bar">
-                        <div class="ai-icon">🤖</div>
-                        <input type="text" placeholder="Ask your beauty companion: 'Best anti-aging serum for sensitive skin'" class="ai-input" id="aiInput">
-                        <button class="ai-send-btn" onclick="startChat()">
-                            <span>✨</span>
-                        </button>
-                    </div>
-                </div>
-
-                <button class="chat-btn" onclick="startChat()">🌟 Start Beauty Consultation</button>
-            </div>
-
-            <!-- Quick Actions -->
-            <div class="quick-actions">
-                <div class="action-card premium-feature" onclick="openFeature('antiaging')">
-                    <div class="premium-star">⭐</div>
-                    <div class="action-icon">🧘</div>
-                    <div class="action-title">Anti-aging</div>
-                    <div class="action-subtitle">Wellness & skincare</div>
-                </div>
-                <div class="action-card" onclick="openFeature('eyecare')">
-                    <div class="action-icon">👁️</div>
-                    <div class="action-title">Eye Care</div>
-                    <div class="action-subtitle">2,000+ eye products</div>
-                </div>
-                <div class="action-card premium-feature" onclick="openFeature('analysis')">
-                    <div class="premium-star">⭐</div>
-                    <div class="action-icon">✨</div>
-                    <div class="action-title">Skin Analysis</div>
-                    <div class="action-subtitle">AI recommendations</div>
-                </div>
-                <div class="action-card premium-feature" onclick="openFeature('facial')">
-                    <div class="premium-star">⭐</div>
-                    <div class="action-icon">😊</div>
-                    <div class="action-title">Facial Analysis</div>
-                    <div class="action-subtitle">AI face scanning</div>
-                </div>
-                <div class="action-card" onclick="openFeature('trends')">
-                    <div class="action-icon">🏷️</div>
-                    <div class="action-title">Discounts</div>
-                    <div class="action-subtitle">discount products</div>
-                </div>
-                <div class="action-card" onclick="openFeature('nailcare')">
-                    <div class="action-icon">💅</div>
-                    <div class="action-title">Nail Care</div>
-                    <div class="action-subtitle">2,000+ nail products</div>
-                </div>
-                <div class="action-card" onclick="openFeature('accessories')">
-                    <div class="action-icon">💎</div>
-                    <div class="action-title">Accessories</div>
-                    <div class="action-subtitle">2,000+ beauty tools</div>
-                </div>
-                <div class="action-card" onclick="openFeature('basket')">
-                    <div class="action-icon">🛒</div>
-                    <div class="action-title">Basket</div>
-                    <div class="action-subtitle">3 items • $127.50</div>
-                    <div class="basket-count">3</div>
-                </div>
-            </div>
-
-            <!-- Featured Section -->
-            <div class="featured-section">
-                <div class="featured-header" onclick="openFeature('usproducts')" style="cursor: pointer;">
-                    <div class="featured-title">Beauty Catalog</div>
-                    <div class="featured-subtitle">Curated American Collections</div>
-                </div>
-                <div class="featured-content">
-                    <div class="feature-card" onclick="openFeature('international')" style="cursor: pointer;">
-                        <div class="feature-icon">🌍</div>
-                        <div class="feature-title">Global Beauty Products</div>
-                        <div class="feature-desc">Discover products from around the world</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Recommendations Section -->
-            <div class="featured-section">
-                <div class="featured-header">
-                    <div class="featured-title">Recommendations</div>
-                    <div class="featured-subtitle">Personalized suggestions</div>
-                </div>
-                <div class="featured-content">
-                    <div class="feature-card" onclick="checkAccountForRecommendations()" style="cursor: pointer;">
-                        <div class="feature-icon">✨</div>
-                        <div class="feature-title">Get Personalized Suggestions</div>
-                        <div class="feature-desc">Create account or login for AI recommendations</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Spacer for bottom nav -->
-            <div style="height: 100px;"></div>
+        <!-- Backend Connection Test -->
+        <div class="app-section">
+            <h2 class="section-title">🔗 Backend Connection</h2>
+            <button onclick="testBackend()" id="testBtn">Test Backend Connection</button>
+            <div class="response" id="backendResponse">Click the button above to test backend connection...</div>
         </div>
 
-        <!-- Bottom Navigation -->
-        <div class="bottom-nav">
-            <div class="nav-item active" onclick="goToPage('home')">
-                <div class="nav-icon">🏠</div>
-                <div class="nav-label">Home</div>
+        <!-- Claude AI Chat -->
+        <div class="app-section">
+            <h2 class="section-title">🤖 Claude AI Chat</h2>
+            <textarea id="messageInput" placeholder="Ask Claude AI about beauty tips, skincare routines, makeup techniques, or product recommendations..."></textarea>
+            <button onclick="testClaude()" id="claudeBtn">Ask Claude AI</button>
+            <div class="response" id="claudeResponse">Enter a beauty question above and click 'Ask Claude AI'...</div>
+        </div>
+
+        <!-- Product Search -->
+        <div class="app-section">
+            <h2 class="section-title">🛍️ Product Search</h2>
+            <input type="text" id="searchInput" placeholder="Search beauty products (e.g., 'retinol serum', 'vitamin c')">
+            <button onclick="searchProducts()" id="searchBtn">Search Products</button>
+            <div class="response" id="searchResponse">Enter a product search term above...</div>
+        </div>
+
+        <!-- API Features -->
+        <div class="app-section">
+            <h2 class="section-title">🚀 Test All Features</h2>
+            <div class="feature-grid">
+                <button class="feature-btn" onclick="testCategories()">📂 Categories</button>
+                <button class="feature-btn" onclick="testTrends()">📱 Trends</button>
+                <button class="feature-btn" onclick="testFacialAnalysis()">📸 Facial Analysis</button>
+                <button class="feature-btn" onclick="loadTrendingProducts()">🔥 Trending Products</button>
             </div>
-            <div class="nav-item" onclick="goToPage('signin')">
-                <div class="nav-icon">🔑</div>
-                <div class="nav-label">Sign In</div>
-            </div>
-            <div class="nav-item" onclick="goToPage('createaccount')">
-                <div class="nav-icon">👤</div>
-                <div class="nav-label">Create Account</div>
-            </div>
-            <div class="nav-item" onclick="goToPage('catalog')">
-                <div class="nav-icon">🌍</div>
-                <div class="nav-label">Catalog</div>
-            </div>
-            <div class="nav-item" onclick="goToPage('askme')">
-                <div class="nav-icon">💬</div>
-                <div class="nav-label">Ask Me</div>
-            </div>
+            <div class="response" id="featuresResponse">Click any feature button above to test...</div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Hosted on synergylogicsit.com • Powered by Claude AI</p>
+            <p>Backend: beauty-ai-backend.onrender.com</p>
         </div>
     </div>
 
-    <script src="index.js"></script>
     <script>
-        // Initialize basket
-        let basket = [
-            { name: "K-Beauty Serum", price: "$29.99" },
-            { name: "French Moisturizer", price: "$45.50" },
-            { name: "Vitamin C Complex", price: "$52.01" }
-        ];
+        const API_BASE_URL = 'https://beauty-ai-backend.onrender.com';
+        
+        // Status management
+        function updateStatus(status, text) {
+            const indicator = document.getElementById('statusIndicator');
+            const statusText = document.getElementById('statusText');
+            
+            indicator.className = `status-indicator status-${status}`;
+            statusText.textContent = text;
+        }
 
-        // Chat functionality - FIXED FOR RENDER
-        async function startChat() {
-            const input = document.getElementById('aiInput');
-            const query = input ? input.value.trim() : '';
+        // Backend connection test
+        async function testBackend() {
+            const btn = document.getElementById('testBtn');
+            const response = document.getElementById('backendResponse');
+            
+            btn.disabled = true;
+            btn.textContent = '🔄 Testing...';
+            response.textContent = 'Connecting to backend...';
+            response.className = 'response loading';
+            updateStatus('testing', 'Testing connection...');
 
-            if (!query) {
-                alert("Please enter a beauty question.");
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/health`);
+                const data = await res.json();
+                
+                response.textContent = `✅ Backend Connected Successfully!\n\nService: ${data.service}\nVersion: ${data.version}\nStatus: ${data.status}\nFeatures: ${data.features.length} available\nProducts: ${data.productsLoaded} loaded\n\nTimestamp: ${data.timestamp}`;
+                response.className = 'response success';
+                updateStatus('online', 'Backend online');
+            } catch (error) {
+                response.textContent = `❌ Connection Error:\n\n${error.message}\n\nPlease check:\n- Backend is running\n- CORS is configured\n- Network connection`;
+                response.className = 'response error';
+                updateStatus('offline', 'Backend offline');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🔗 Test Backend Connection';
+            }
+        }
+
+        // Claude AI chat
+        async function testClaude() {
+            const message = document.getElementById('messageInput').value.trim();
+            const btn = document.getElementById('claudeBtn');
+            const response = document.getElementById('claudeResponse');
+
+            if (!message) {
+                alert('Please enter a beauty question for Claude AI');
                 return;
             }
 
-            showAIThinking();
+            btn.disabled = true;
+            btn.textContent = '🔄 Asking Claude...';
+            response.textContent = 'Claude AI is thinking about your beauty question...';
+            response.className = 'response loading';
 
             try {
-                // Use Render URL consistently
-                const response = await fetch('https://luminous-ai.onrender.com/api/chat', {
+                const res = await fetch(`${API_BASE_URL}/api/chat/claude`, {
                     method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Accept': 'application/json'
-                    },
+                    headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ 
-                        message: query,
-                        includeProducts: false,
-                        userProfile: {},
-                        sessionId: 'session_' + Date.now()
+                        message, 
+                        context: 'comprehensive beauty consultation' 
                     })
                 });
-
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-                }
-
-                const data = await response.json();
-
-                if (data.success && data.response) {
-                    alert("💡 AI Suggestion:\n\n" + data.response);
+                const data = await res.json();
+                
+                if (data.success) {
+                    response.textContent = `🤖 Claude AI Beauty Consultant:\n\n${data.response}`;
+                    response.className = 'response success';
                 } else {
-                    alert("⚠️ No response received. Please try again.");
+                    response.textContent = `❌ Claude Error:\n\n${data.error || 'Unknown error occurred'}`;
+                    response.className = 'response error';
                 }
             } catch (error) {
-                console.error('Chat error:', error);
+                response.textContent = `❌ Network Error:\n\n${error.message}\n\nClaude AI may be temporarily unavailable.`;
+                response.className = 'response error';
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🤖 Ask Claude AI';
+            }
+        }
+
+        // Product search
+        async function searchProducts() {
+            const query = document.getElementById('searchInput').value.trim();
+            const btn = document.getElementById('searchBtn');
+            const response = document.getElementById('searchResponse');
+
+            if (!query) {
+                alert('Please enter a product search term');
+                return;
+            }
+
+            btn.disabled = true;
+            btn.textContent = '🔄 Searching...';
+            response.textContent = `Searching for "${query}"...`;
+            response.className = 'response loading';
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/products/search`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        query, 
+                        limit: 5 
+                    })
+                });
+                const data = await res.json();
                 
-                let errorMessage = "⚠️ Connection failed. ";
-                if (error.message.includes('NetworkError') || error.message.includes('fetch')) {
-                    errorMessage += "Please check your internet connection.";
+                if (data.success && data.products.length > 0) {
+                    let resultText = `🛍️ Found ${data.products.length} products:\n\n`;
+                    data.products.forEach((product, index) => {
+                        resultText += `${index + 1}. ${product.name}\n`;
+                        resultText += `   Brand: ${product.brand}\n`;
+                        resultText += `   Price: ${product.price}\n`;
+                        resultText += `   Rating: ⭐ ${product.rating}\n`;
+                        resultText += `   ${product.description}\n\n`;
+                    });
+                    response.textContent = resultText;
+                    response.className = 'response success';
                 } else {
-                    errorMessage += "Please try again in a moment.";
+                    response.textContent = `No products found for "${query}"\n\nTry searching for:\n- "retinol serum"\n- "vitamin c"\n- "moisturizer"\n- "makeup"`;
+                    response.className = 'response error';
                 }
+            } catch (error) {
+                response.textContent = `❌ Search Error:\n\n${error.message}`;
+                response.className = 'response error';
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🛍️ Search Products';
+            }
+        }
+
+        // Test categories
+        async function testCategories() {
+            const response = document.getElementById('featuresResponse');
+            response.textContent = 'Loading beauty categories...';
+            response.className = 'response loading';
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/products/categories`);
+                const data = await res.json();
                 
-                alert(errorMessage);
+                if (data.success) {
+                    let resultText = '📂 Beauty Categories:\n\n';
+                    Object.entries(data.categories).forEach(([key, category]) => {
+                        resultText += `${category.icon} ${category.name}\n`;
+                        resultText += `   Subcategories: ${category.subCategories.length}\n\n`;
+                    });
+                    response.textContent = resultText;
+                    response.className = 'response success';
+                } else {
+                    throw new Error(data.error || 'Failed to load categories');
+                }
+            } catch (error) {
+                response.textContent = `❌ Categories Error:\n\n${error.message}`;
+                response.className = 'response error';
             }
         }
 
-        // Feature navigation
-        function openFeature(feature) {
-            switch(feature) {
-                case 'trends':
-                    window.location.href = '/chat.html?query=Show me the latest trending beauty products and viral looks from TikTok and Instagram';
-                    break;
-                case 'eyecare':
-                    window.location.href = '/chat.html?query=eye care&source=eyecare';
-                    break;
-                case 'international':
-                    window.location.href = '/catalog.html';
-                    break;
-                case 'facial':
-                    showFacialAnalysisPrompt();
-                    break;
-                case 'analysis':
-                    window.location.href = '/account.html?tab=profile#skin-analysis';
-                    break;
-                case 'antiaging':
-                    window.location.href = '/antiaging.html';
-                    break;
-                case 'nailcare':
-                    window.location.href = '/chat.html?query=nail care&source=nailcare';
-                    break;
-                case 'accessories':
-                    window.location.href = '/chat.html?query=beauty accessories&source=accessories';
-                    break;
-                case 'basket':
-                    showBasket();
-                    break;
-                 case 'usproducts':
-                    window.location.href = '/chat.html?query=Show me US and local beauty care products including American brands, locally sourced ingredients, and products made in the USA';
-                    break;
-                default:
-                    startChat();
+        // Test trends
+        async function testTrends() {
+            const response = document.getElementById('featuresResponse');
+            response.textContent = 'Loading beauty trends...';
+            response.className = 'response loading';
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/trends`);
+                const data = await res.json();
+                
+                if (data.success) {
+                    let resultText = '📱 Beauty Trends:\n\n';
+                    data.trends.forEach((trend, index) => {
+                        resultText += `${index + 1}. ${trend.icon} ${trend.title}\n`;
+                        resultText += `   Platform: ${trend.platform}\n`;
+                        resultText += `   ${trend.description}\n`;
+                        resultText += `   ${trend.hashtag} • ${trend.views}\n\n`;
+                    });
+                    response.textContent = resultText;
+                    response.className = 'response success';
+                } else {
+                    throw new Error(data.error || 'Failed to load trends');
+                }
+            } catch (error) {
+                response.textContent = `❌ Trends Error:\n\n${error.message}`;
+                response.className = 'response error';
             }
         }
 
-        // Navigation
-        function goToPage(page) {
-            document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
-            if (event && event.currentTarget) {
-                event.currentTarget.classList.add('active');
-            }
+        // Test facial analysis
+        async function testFacialAnalysis() {
+            const response = document.getElementById('featuresResponse');
+            response.textContent = 'Testing facial analysis (simulation)...';
+            response.className = 'response loading';
 
-            switch(page) {
-                case 'home':
-                    window.location.href = '/index.html';
-                    break;
-                case 'signin':
-                    window.location.href = '/signin.html';
-                    break;
-                case 'createaccount':
-                    window.location.href = '/createaccount.html';
-                    break;
-                case 'catalog':
-                    window.location.href = '/catalog.html';
-                    break;
-                case 'askme':
-                    window.location.href = '/askme.html';
-                    break;
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/facial-analysis`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        imageData: 'test_image_data_simulation' 
+                    })
+                });
+                const data = await res.json();
+                
+                if (data.success) {
+                    const analysis = data.analysis;
+                    let resultText = '📸 Facial Analysis Results:\n\n';
+                    resultText += `Skin Tone: ${analysis.skinTone}\n`;
+                    resultText += `Skin Type: ${analysis.skinType}\n\n`;
+                    resultText += 'Recommendations:\n';
+                    resultText += `Foundation: ${analysis.recommendations.foundation}\n\n`;
+                    resultText += 'Skincare Routine:\n';
+                    analysis.recommendations.routine.forEach((step, index) => {
+                        resultText += `${index + 1}. ${step}\n`;
+                    });
+                    response.textContent = resultText;
+                    response.className = 'response success';
+                } else {
+                    throw new Error(data.error || 'Facial analysis failed');
+                }
+            } catch (error) {
+                response.textContent = `❌ Facial Analysis Error:\n\n${error.message}`;
+                response.className = 'response error';
             }
         }
 
-        // Basket functionality
-        function showBasket() {
-            const basketItems = basket.map(item => `• ${item.name} - ${item.price}`).join('\n');
-            alert(`🛒 Your Beauty Basket:\n\n${basketItems}\n\nTotal: $127.50\n\nCheckout coming soon!`);
+        // Load trending products
+        async function loadTrendingProducts() {
+            const response = document.getElementById('featuresResponse');
+            response.textContent = 'Loading trending products...';
+            response.className = 'response loading';
+
+            try {
+                const res = await fetch(`${API_BASE_URL}/api/products/trending`);
+                const data = await res.json();
+                
+                if (data.success) {
+                    let resultText = '🔥 Trending Products:\n\n';
+                    data.products.slice(0, 5).forEach((product, index) => {
+                        resultText += `${index + 1}. ${product.name}\n`;
+                        resultText += `   Brand: ${product.brand} | Price: ${product.price}\n`;
+                        resultText += `   ⭐ ${product.rating} (${product.reviews} reviews)\n\n`;
+                    });
+                    response.textContent = resultText;
+                    response.className = 'response success';
+                } else {
+                    throw new Error(data.error || 'Failed to load trending products');
+                }
+            } catch (error) {
+                response.textContent = `❌ Trending Products Error:\n\n${error.message}`;
+                response.className = 'response error';
+            }
         }
 
-        // AI search enhancements
-        document.getElementById('aiInput').addEventListener('keypress', function(e) {
+        // Auto-test backend on page load
+        window.addEventListener('load', function() {
+            updateStatus('testing', 'Initializing...');
+            setTimeout(testBackend, 1000);
+        });
+
+        // Handle enter key in inputs
+        document.getElementById('messageInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && e.ctrlKey) {
+                testClaude();
+            }
+        });
+
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
-                startChat();
+                searchProducts();
             }
-        });
-
-        // Interactive elements
-        document.querySelectorAll('.action-card').forEach(card => {
-            card.addEventListener('click', function() {
-                this.style.transform = 'scale(0.95)';
-                setTimeout(() => {
-                    this.style.transform = '';
-                }, 100);
-            });
-        });
-
-        // Loading animation for AI responses
-        function showAIThinking() {
-            const btn = document.querySelector('.ai-send-btn span');
-            btn.innerHTML = '<div class="loading"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>';
-            setTimeout(() => {
-                btn.innerHTML = '✨';
-            }, 2000);
-        }
-
-        function checkAccountForRecommendations() {
-            const profile = JSON.parse(localStorage.getItem('userProfile') || '{}');
-
-            if (profile.name && profile.email && profile.password) {
-                window.location.href = 'account.html';
-            } else {
-                showAccountPrompt();
-            }
-        }
-
-        function showAccountPrompt() {
-            const promptHTML = `
-                <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 10000; display: flex; align-items: center; justify-content: center; padding: 20px;" onclick="closeAccountPrompt()">
-                    <div style="background: white; border-radius: 20px; padding: 30px; max-width: 350px; text-align: center;" onclick="event.stopPropagation()">
-                        <div style="font-size: 48px; margin-bottom: 20px;">✨</div>
-                        <h2 style="color: #2c2c2c; margin-bottom: 15px; font-size: 22px;">Get Personalized Recommendations</h2>
-                        <p style="color: #666; margin-bottom: 25px; line-height: 1.5;">Create an account or sign in to receive AI-powered beauty recommendations tailored just for you!</p>
-
-                        <div style="display: flex; flex-direction: column; gap: 12px;">
-                            <button onclick="window.location.href='createaccount.html'" style="background: var(--premium-gradient); color: white; border: none; padding: 15px 25px; border-radius: 25px; font-weight: 600; cursor: pointer; font-size: 16px;">
-                                Create Account
-                            </button>
-                            <button onclick="window.location.href='signin.html'" style="background: #f0f0f0; color: #333; border: none; padding: 15px 25px; border-radius: 25px; font-weight: 600; cursor: pointer; font-size: 16px;">
-                                Sign In
-                            </button>
-                            <button onclick="closeAccountPrompt()" style="background: none; border: none; color: #888; padding: 10px; cursor: pointer; font-size: 14px;">
-                                Maybe Later
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            `;
-
-            document.body.insertAdjacentHTML('beforeend', promptHTML);
-        }
-
-        function closeAccountPrompt() {
-            const overlay = document.querySelector('[style*="position: fixed"][style*="z-index: 10000"]');
-            if (overlay) overlay.remove();
-        }
-
-         function showFacialAnalysisPrompt() {
-            const promptHTML = `
-                <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 10000; display: flex; align-items: center; justify-content: center; padding: 20px;" onclick="closeFacialAnalysisPrompt()">
-                    <div style="background: white; border-radius: 20px; padding: 30px; max-width: 350px; text-align: center;" onclick="event.stopPropagation()">
-                        <div style="font-size: 48px; margin-bottom: 20px;">😊</div>
-                        <h2 style="color: #2c2c2c; margin-bottom: 15px; font-size: 22px;">AI Facial Analysis</h2>
-                        <p style="color: #666; margin-bottom: 25px; line-height: 1.5;">Create an account and complete your profile to access our AI-powered facial analysis tool for personalized beauty recommendations!</p>
-
-                        <div style="display: flex; flex-direction: column; gap: 12px;">
-                            <button onclick="window.location.href='createaccount.html'" style="background: var(--premium-gradient); color: white; border: none; padding: 15px 25px; border-radius: 25px; font-weight: 600; cursor: pointer; font-size: 16px;">
-                                Create Account
-                            </button>
-                            <button onclick="window.location.href='signin.html'" style="background: #f0f0f0; color: #333; border: none; padding: 15px 25px; border-radius: 25px; font-weight: 600; cursor: pointer; font-size: 16px;">
-                                Sign In
-                            </button>
-                            <button onclick="closeFacialAnalysisPrompt()" style="background: none; border: none; color: #888; padding: 10px; cursor: pointer; font-size: 14px;">
-                                Continue as Guest
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            `;
-
-            document.body.insertAdjacentHTML('beforeend', promptHTML);
-        }
-
-        function closeFacialAnalysisPrompt() {
-            const overlay = document.querySelector('[style*="position: fixed"][style*="z-index: 10000"]');
-            if (overlay) overlay.remove();
-        }
-
-        // Initialize app
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('✨ Luminous AI - Your Radiant Beauty Companion Loaded! 🚀');
-
-            const logo = document.querySelector('.logo');
-            setInterval(() => {
-                logo.style.transform = 'scale(1.02)';
-                setTimeout(() => {
-                    logo.style.transform = 'scale(1)';
-                }, 200);
-            }, 3000);
         });
     </script>
 </body>
